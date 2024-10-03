@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="fire-background"></div>
+    
+    <header class="header">
+        
+        <a href="#home" class="logo"><img src="Picture/logo.png" alt="Logo" class="logo-img">Nguyễn Phạm <span>Bích Ngọc</span></a>
+        
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#thongtin">Thông Tin</a>
+            <a href="#hinhanh">Hình Ảnh</a>
+            <a href="#an" id="an-link">Ẩn</a>
+        </nav>
+    </header>
+    
+   
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1> Ihre Name  ist  <span> Ngọc </span></h1>
+            <h3 class="text-animation">Sie ist <span></span></h3> 
+            <p> "Ich wünsche dir zum 20. Oktober immer viel Freude und dass du die Schönste unter den Schönen bleibst. Alles Gute soll immer auf dich zukommen.."</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/diep.hoa.78337" target ="_blank">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a>
+            </div>
+
+    
+        </div> 
+        <div class="home-img">
+            <img src="Picture/npbn.png" alt="Hình của Ngọc">
+        </div> 
+    </section>
+
+   
+    <section class="thong-tin" id="thongtin">
+        <h2 class="heading">Thông Tin</h2>
+    
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1</div>
+                <div class="timeline-content">
+                    <h3>Nguyên Tố</h3>
+                    <p>Nguyên tố Lửa đại diện cho niềm đam mê, năng lượng bùng cháy, và sự dũng cảm. Người mang nguyên tố này thường sôi nổi, dám nghĩ dám làm và có tinh thần tiên phong.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2</div>
+                <div class="timeline-content">
+                    <h3>Tính Cách</h3>
+                    <p>Người thuộc cung Sư Tử thường rất mạnh mẽ, tự tin và có sức hút tự nhiên. Họ cũng dễ bị ảnh hưởng bởi lời khen ngợi và thường muốn được công nhận.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">3</div>
+                <div class="timeline-content">
+                    <h3>Ảnh hưởng</h3>
+                    <p>Cung Sư Tử được chiếu sáng bởi Mặt Trời, tượng trưng cho năng lượng sáng tạo, nguồn sống và sức mạnh. Người thuộc cung này thường mang trong mình sự quyết đoán.</p>
+                </div>
+            </div>
+           
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">4</div>
+                <div class="timeline-content">
+                    <h3>Tương hợp</h3>
+                    <p>Cung Sư Tử hợp với các cung thuộc nguyên tố Lửa (Bạch Dương, Nhân Mã) và nguyên tố Khí (Thiên Bình, Song Tử, Bảo Bình). Những mối quan hệ này thường năng động và tràn đầy đam mê.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+    <section class="hinh-anh" id="hinhanh">
+        <h2 class="heading">Hình Ảnh</h2>
+        
+       
+       
+        <div class="image-gallery" id="image-gallery">
+            <img src="Picture/npbn (3) .jpg" alt="Ảnh 1" class="gallery-img">
+            <img src="Picture/npbn (4) .jpg" alt="Ảnh 2" class="gallery-img">
+            <img src="Picture/npbn (5) .jpg" alt="Ảnh 3" class="gallery-img">
+            <img src="Picture/npbn (6) .jpg" alt="Ảnh 4" class="gallery-img">
+            <img src="Picture/npbn (2) .jpg" alt="Ảnh 5" class="gallery-img">
+        </div>
+    </section>
+    
+    <section class="an" id="an">
+        <div id="hidden-message" class="hidden">
+            <p id="typed-message"></p>
+        </div>
+    </section>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
